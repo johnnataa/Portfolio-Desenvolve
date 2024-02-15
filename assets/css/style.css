@@ -60,7 +60,7 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-family: var(--fonte-primaria);
   ;
 }
@@ -70,7 +70,7 @@ body {
 }
 
 .apresentacao__conteudo__texto {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: var(--fonte-secundaria);
   text-align: justify;
 }
@@ -86,7 +86,7 @@ body {
 .apresentacao__links__subtitulo {
   font-family: var(--fonte-primaria);
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .apresentacao__links__navegacao {
@@ -109,13 +109,8 @@ body {
   background-color: var(--cor-quaternaria);
 }
 
-.apresentacao__links__navegacao__instagram {
-  width: 32px;
-  height: 32px;
-}
-
 .apresentacao__imagem {
-  border-radius: 50%;
+  border-radius: 7%;
   border: solid var(--cor-secundaria) 0.2vw;
   width: 40%;
 }
