@@ -137,7 +137,46 @@ body {
 
 .rodape__link:hover {
   color: var(--cor-quaternaria);
-  }
+}
+
+.apresentacao__cv {
+  padding: 4% 12% 3% 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 82px;
+}
+
+.apresentacao__conteudo__titulo__cv {
+  font-size: 1.5rem;
+  font-family: var(--fonte-primaria);
+  ;
+}
+
+.apresentacao__conteudo__cv {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.apresentacao__conteudo__texto__cv {
+  font-size: 1.3rem;
+  font-family: var(--fonte-secundaria);
+  text-align: justify;
+  width: auto;
+  padding: 0.3% 0% 1.5% 0%;
+}
+
+.apresentacao__conteudo__texto__cv__lista {
+  font-size: 1.3rem;
+  font-family: var(--fonte-secundaria);
+  text-align: justify;
+  width: auto;
+  padding: 0.3% 0% 1.5% 0%;
+  list-style-type: none;
+  line-height: 1.6rem;
+}
 
 @media (max-width: 1200px) {
   .cabecalho {
