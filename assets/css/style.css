@@ -178,21 +178,34 @@ body {
   line-height: 1.6rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .cabecalho {
     padding: 5%;
   }
 
   .cabecalho__menu {
     justify-content: center;
+    padding: 3%;
+    gap: 3%;
+  }
+
+  .cabecalho__menu__link {
+    font-size: 1.3rem;
   }
   
   .apresentacao {
     flex-direction: column-reverse;
     padding: 5%;
+    gap: 2rem;
   }
 
   .apresentacao__conteudo {
     width: auto;
   }
+
+.apresentacao__links__navegacao {
+ font-size: 1.4rem;
+ gap: 0.4rem
+}
+
 }
